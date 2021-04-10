@@ -11,9 +11,9 @@ If you are new to scientific computing, we suggest that you also pick up a refer
 
 Then browse around the repository and familiarize yourself with its folders. You will quickly see that there are three folders that have files in them:
 
-- `code`: This directory holds program scripts that are being called to download data from WRDS, prepare the data, run the analysis and create the output files (a paper and a presentation, both PDF files).
+- `code`: This directory holds program scripts that are being called to download World Bank data, prepare the data, run the analysis and create the output files (a paper and a presentation, both PDF files).
 
-- `data`: A directory where data is stored. You will see that it again contains sub-directories and a README file that explains their purpose. You will also see that in the `external` sub-directory there are two data files. Again, the README file explains their content.
+- `data`: A directory where data is stored. You will see that it again contains sub-directories and a README file that explains their purpose.
 
 - `doc`: Here you will find two RMarkdown files containing text and program instructions that will become our paper and presentation, by rendering them through the R markdown process and LaTeX.
 
