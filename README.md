@@ -1,6 +1,6 @@
 ## The TRR 266 Template for Reproducible Empirical Research 
 
-Welcome! This repository provides an infrastructure for open science oriented empirical projects. It is based on the [TREAT repository](https://github.com/trr266/treat) but uses World Bank data instead of WRDS data so that it can be used by everybody interested in reproducible empirical research. Currently, this is all R based but it is not meant to stay that way. You can help by contributing Python and/or Stata code that mimics the R analysis steps via pull requests.
+This repository provides an infrastructure for open science oriented empirical projects. It is based on the [TREAT repository](https://github.com/trr266/treat) but uses World Bank data instead of WRDS data so that it can be used by everybody interested in reproducible empirical research. Currently, this is all R based but it is not meant to stay that way. You can help by contributing Python and/or Stata code that mimics the R analysis steps via pull requests.
 
 
 ### Where do I start?
@@ -60,7 +60,7 @@ tinytex::install_tinytex()
 
 ### OK. That was fun. Bot how should I use the repo now?
 
-The basic idea is to clone the repository whenever you start a new project. If your are using GitHub, the simplest way to do this is to click on "Use this Template" above the file list. Then delete everything that you don't like and/or need. Over time, as you develop your own preferences, you can fork this repository and adjust it so that it becomes your very own template targeted to your very own preferences.
+The basic idea is to clone the repository whenever you start a new project. If you are using GitHub, the simplest way to do this is to click on "Use this Template" above the file list. Then delete everything that you don't like and/or need. Over time, as you develop your own preferences, you can fork this repository and adjust it so that it becomes your very own template targeted to your very own preferences.
 
 
 ### Why do you do abc in a certain way? I like to do things differently!
