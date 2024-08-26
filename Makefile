@@ -40,6 +40,6 @@ $(PAPER): doc/paper.Rmd doc/references.bib $(RESULTS)
 	mv doc/paper.pdf output
 	rm -f doc/paper.ttt doc/paper.fff
 
-$(PRESENTATION): doc/presentation.rmd $(RESULTS)
+$(PRESENTATION): doc/presentation.Rmd $(RESULTS)
 	$(RSCRIPT) -e 'library(rmarkdown); render("doc/presentation.Rmd")'
 	mv doc/presentation.pdf output
